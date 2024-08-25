@@ -7,6 +7,7 @@ function App() {
     <div>
       <h1>Start REact 200!</h1>
       <p>HTML 적용하기</p>
+      <ImportComponent></ImportComponent>
     </div>
   );
 }
