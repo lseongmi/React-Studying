@@ -1,16 +1,13 @@
 import React from 'react';
 import './App.css';
-import LifecycleEx from './R008_LifecycleEx';
+import Es6 from './R009_Es6';
 
 function App() {
   return (
     <div>
       <h1>Start REact 200!</h1>
-      <p>HTML 적용하기</p>
-      <LifecycleEx  
-        prop_value = 'FromApp.js' //R006_LifecycleEx로 prop_value 라는 변수 전달
-      />
-      
+      <p>CSS 적용하기</p>
+      <Es6 />
     </div>
   );
 }
