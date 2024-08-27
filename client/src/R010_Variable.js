@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class R010_Variable extends Component {
-    constructor(porps) {
+    constructor(props) {
         super(props);
         this.state = {};
     }
