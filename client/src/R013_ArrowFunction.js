@@ -23,12 +23,12 @@ class R013_ArrowFunction extends Component {
         }
     }
 
-    Function2 = (num1, num1) => {
+    Function2 = (num1, num2) => {
         let num3 = num1 + num2;
         console.log(num3 + 'ArrowFuntion : ' + this.state.arrowFuc);
     }
 
-    Funtion3() {
+    Function3() {
         var this_bind = this;
         setTimeout(function() {
             console.log(this_bind.state.num + '. Es5 Callback Funtion no Bind : ');
