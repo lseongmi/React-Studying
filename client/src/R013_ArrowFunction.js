@@ -25,7 +25,7 @@ class R013_ArrowFunction extends Component {
 
     Function2 = (num1, num2) => { //간단하게 () => {}로 표현
         let num3 = num1 + num2;
-        console.log(num3 + 'ArrowFuntion : ' + this.state.arrowFuc); //컴포넌트의 state 변수에 접근해 사용
+        console.log(num3 + 'ArrowFuntion : ' + this.state.arrowFuc); //컴포넌트의 state 변수에 접근해 사용(this 는 component를 상속 받은 R013_ArrowFunction 이니까.)
     }
 
     Function3() {
