@@ -7,9 +7,7 @@ function App() {
     <div>
       <h1>Start REact 200!</h1>
       <p>CSS 적용하기</p>
-      <PropsObjVal ObjactJson = {{react : "리액트", twohundred:"200"}}/>
-     
-      
+      <PropsObjVal ObjectJson = {{react : "리액트", twohundred:"200"}}/> 
     </div>
   );
 }
