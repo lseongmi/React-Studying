@@ -8,7 +8,7 @@ class R022_PropsDefault extends Component {
         } = this.props
 
         return (
-            <div style="{{padding:0px}}">
+            <div style={{padding:"0px"}}>
                 {ReactString}{ReactNumber}
             </div>
         )
@@ -17,7 +17,7 @@ class R022_PropsDefault extends Component {
 
 R022_PropsDefault.defaultProps = {
     ReactString : "리액트",
-    R0eactNumber:400
+    ReeactNumber:400
 }
 
 export default R022_PropsDefault;
