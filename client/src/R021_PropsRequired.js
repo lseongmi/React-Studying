@@ -13,7 +13,7 @@ class R021_PropsRequired extends Component {
                 {ReactString}{ReactNumber}
             </div>
         )
-    }
+    }    
 }
 
 R021_PropsRequired.propTypes = {
