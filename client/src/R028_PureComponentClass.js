@@ -28,3 +28,5 @@ class R028_PureComponentClass extends PureComponent {
         )
     }
 }
+
+export default R028_PureComponentClass;
