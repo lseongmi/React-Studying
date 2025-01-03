@@ -15,7 +15,10 @@
 
             const reset = () => setAmount(0);
 
-            const onFlip = () => setFlipped((current) => !current);
+            const onFlip = () => {
+                setFlipped((current) => !current);
+                reset();
+            }
 
             return (
                 <div>
